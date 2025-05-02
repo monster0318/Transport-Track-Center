@@ -2,7 +2,6 @@ from flask import Flask, redirect, render_template, request, url_for, abort
 from flask import jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_compress import Compress
-
 import pandas as pd
 import json
 import geojson
@@ -10,9 +9,6 @@ import datetime
 import os
 import math
 import timeit
-
-
-########## CONFIG ###########
 
 app = Flask(__name__)
 # enable compression of response objects
