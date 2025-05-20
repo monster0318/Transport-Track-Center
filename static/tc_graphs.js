@@ -2,6 +2,7 @@
 
 	var graph = {
 
+
 		graphLineConfig: {
 			type: 'scatter',
 			mode: 'lines',
